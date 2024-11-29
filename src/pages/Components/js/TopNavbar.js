@@ -1,13 +1,14 @@
 // src/components/TopNavBar.js
 import React from "react";
 import { Link } from "react-router-dom"; 
-import "../css/TopNavBar.css"; 
+import "../css/TopNavBar.css";
+
 const TopNavBar = () => {
   return (
     <nav className="top-navbar">
       <div className="navbar-container">
         <div className="logo">
-          <Link to="/"> <img src="/Droidal-Colour.png"/></Link> 
+          <Link to="/"> <img src={require("assets/img/Droidal-Colour.png")} /></Link> 
         </div>
         <ul className="nav-links">
           <li>

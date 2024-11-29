@@ -1,16 +1,18 @@
 .app-container {
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    overflow: hidden;
-    font-family: Arial, sans-serif; 
-    background-image: url("../../../assets/img/antoine-barres.jpg");
-    background-position: center;
-    background-size: cover;
-  }
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  overflow: hidden;
+  font-family: Arial, sans-serif; 
+  background-image: url("../../../assets/img/landing_2.0.jpeg");
+  background-position: bottom;
+  background-size:100vw; 
+  background-repeat: no-repeat; 
+}
+
   
   .home-page, .workspace {
     text-align: center;
@@ -18,7 +20,7 @@
   
   .home-page button {
     padding: 10px 20px;
-    background-color: #61dafb;
+    background-color: #a6bac0;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -28,4 +30,37 @@
   .workspace {
     text-align: center;
     font-size: 100px;
+  }
+  input {
+    text-align: center;
+    width: 300px;
+    border: 1px solid #33a3ff;
+    border-radius: 8px;
+    font-size: 20px;
+    transition: all 0.005s ease-in-out;
+    box-sizing: border-box; 
+    background-color: #e06d6d00;
+  }
+  .card input::placeholder {
+    color: white; 
+  }
+  input:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  h1{
+    margin-bottom: 2rem;
+    font-size: 54px;
+    font-weight:bold;
+  }
+
+  img{
+    border-radius: 2%;
+  }
+  .image-container{
+    background-color: #fffefe;
+  }
+  .card{
+    background-color: #e9505000;
+    color: #fffefe;
   }
