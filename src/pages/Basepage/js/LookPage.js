@@ -27,16 +27,16 @@ const LookPage = () => {
           
           <motion.div
             className="portal"
-            animate={{ scale: [0, 1.2, 1], opacity: [0.75, 1, 1] }}
+            animate={{ scale: [0, 1.5, 1], opacity: [0.75, 1, 1] }}
             transition={{ duration: 5 }}
           />
         </div>
       ) : (
         <motion.div
           className="workspace"
-          initial={{ opacity: 0, scale: 0.8 }}
-          animate={{ opacity: 0.75, scale: 100 }}
-          transition={{ duration: 5 }}
+          initial={{ opacity: 0, scale: 1 }}
+          animate={{ opacity: 1, scale: 50 }}
+          transition={{ duration: 2 }}
         >
           <h1>Droidal</h1>
         </motion.div>
