@@ -1,0 +1,30 @@
+/* Styling for each item in the side navigation */
+.side-nav-item {
+    display: flex;
+    align-items: center; 
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+  }
+  
+  /* Icon styling */
+  .side-nav-icon {
+    font-size: 24px; 
+    margin-right: 10px; 
+    color: #007bff; 
+  }
+  
+  /* Title styling */
+  .side-nav-title {
+    font-size: 16px; /* Adjust title font size */
+    color: #333; /* Title text color */
+    white-space: nowrap; /* Prevent title from breaking into multiple lines */
+    overflow: hidden; /* Handle overflow gracefully */
+    text-overflow: ellipsis; /* Add ellipsis if the title is too long */
+  }
+  
+  /* Hover effect for the navigation item */
+  .side-nav-item:hover {
+    background-color: #f0f0f0; /* Light gray hover background */
+  }
+  

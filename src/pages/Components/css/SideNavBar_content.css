@@ -1,0 +1,136 @@
+/* Sidebar container with Apple-style design */
+.sidebar {
+  width: 250px;
+  position: fixed;
+  top: 4rem; /* Consistent offset from top */
+  left: 0;
+  bottom: 0;
+  background-color: #f8f8f8; /* Light gray background for a clean look */
+  border-right: 1px solid #e0e0e0; /* Subtle border */
+  padding: 1rem;
+  overflow-y: auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  transition: transform 0.3s ease-in-out, border-radius 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 0 15px 15px 0; /* Rounded corners */
+  z-index: 999;
+}
+
+.sidebar.closed {
+  transform: translateX(-100%);
+}
+
+.sidebar.open {
+  transform: translateX(0);
+}
+
+/* Menu button with Apple-style hover effects */
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+  background-color: #ffffff; /* Crisp white background */
+  color: #333333; /* Dark text */
+  cursor: pointer;
+  border-radius: 10px; /* Rounded corners */
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth hover effect */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05); /* Subtle shadow */
+}
+
+.menu:hover {
+  background-color: #f0f0f0; /* Slightly darker background on hover */
+  transform: scale(1.05); /* Subtle zoom effect */
+}
+
+/* Styling for menu and burger icons */
+.menu-icon {
+  font-size: 18px; /* Slightly smaller for minimalism */
+  color: #333333; /* Consistent color */
+}
+
+.burger-icon {
+  font-size: 24px; /* Larger for emphasis */
+  color: #007aff; /* Apple blue for highlights */
+}
+
+/* Sidebar items with Apple-style hover effects */
+.si {
+  color: #333333; /* Dark text */
+  background-color: #ffffff; /* Clean white background */
+  border-radius: 10px; /* Rounded corners */
+  padding: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth hover effect */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05); /* Subtle shadow */
+}
+
+.si:hover {
+  background-color: #e6e6e6; /* Light gray hover effect */
+  transform: translateX(5px); /* Subtle slide animation */
+}
+
+/* Sidebar item icon with a consistent Apple style */
+.si .side-nav-icon {
+  margin-right: 10px;
+  font-size: 20px;
+  color: #007aff; /* Highlight with Apple blue */
+}
+
+/* Sidebar item title */
+.si .side-nav-title {
+  font-size: 16px;
+  color: #333333; /* Clean dark text */
+}
+
+/* Title styling */
+.title {
+  margin-top: 5%;
+  font-size: 1.2rem;
+  color: #333333;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+  .sidebar {
+    width: 200px;
+  }
+
+  .si {
+    font-size: 0.9rem;
+  }
+}
+
+.content-container{
+  font-size: 24px;
+  color: #007aff;
+  border-radius: 1rem;
+  font-size: 16px;
+  width: 5rem;
+  position: fixed;
+  top: 4rem; 
+  left: 0;
+  bottom: auto;
+  background-color: #ffffff;
+  border-right: 1px solid #d1d1d6; 
+  padding: 1rem;
+  overflow-y: auto;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  transition: transform 0.3s ease-in-out; /* Smooth sliding transition */
+  z-index: 999;
+}
+
+.content-container.closed{
+  transform: translateX(-100%); 
+}
+
+.content-container.open{
+  transform: translateX(-100%); 
+}

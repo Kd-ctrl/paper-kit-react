@@ -1,0 +1,82 @@
+/* General Styles for the login page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #000000;
+    margin-bottom: 50px;
+  }
+  
+  /* Main container to center everything */
+  .container {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    text-align: center;
+    transition: all 0.3s ease;
+    align-items: center; /* Aligns children elements horizontally */
+  }
+  
+  /* Individual card style for input fields */
+  input {
+    text-align: center;
+    width: 300px;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    box-sizing: border-box; /* Ensures padding doesn't overflow */
+  }
+  
+  /* Focus effect on input fields */
+  input:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  /* Hover animation for input fields */
+  input:hover {
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.5);
+  }
+  
+  /* Login Button Styles */
+  button {
+    padding: 12px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 100%; /* Ensures the button spans the full width of the form */
+    margin-top: 10px;
+  }
+  
+  /* Button hover effect */
+  button:hover {
+    background-color: #0056b3;
+    box-shadow: 0 4px 12px rgba(0, 123, 255, 0.4);
+  }
+  
+  /* Message after login */
+  p {
+    margin-top: 20px;
+    color: #007bff;
+    font-size: 16px;
+  }
+  

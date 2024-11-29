@@ -25,24 +25,26 @@ import "bootstrap/scss/bootstrap.scss";
 import "assets/scss/paper-kit.scss?v=1.3.0";
 import "assets/demo/demo.css?v=1.3.0";
 // pages
-import Index from "views/Index.js";
-import NucleoIcons from "views/NucleoIcons.js";
-import LandingPage from "views/examples/LandingPage.js";
-import ProfilePage from "views/examples/ProfilePage.js";
-import RegisterPage from "views/examples/RegisterPage.js";
+
+
+
+
+import Login from "./pages/Basepage/js/Login";
+import Home from "./pages/Basepage/js/Home";
+import About from "./pages/Basepage/js/About";
+// import { Route, Routes, Link } from "react-router-dom"; // Use Link for navigation
+import LookPage from "./pages/Basepage/js/LookPage";
 // others
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
   <BrowserRouter>
-    <Routes>
-      <Route path="/index" element={<Index />} />
-      <Route path="/nucleo-icons" element={<NucleoIcons />} />
-      <Route path="/landing-page" element={<LandingPage />} />
-      <Route path="/profile-page" element={<ProfilePage />} />
-      <Route path="/register-page" element={<RegisterPage />} />
-      <Route path="*" element={<Navigate to="/index" replace />} />
-    </Routes>
+      <Routes>
+        <Route path="/App" element={<LookPage/>}/>
+        <Route path="/Login" element={<Login />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/About" element={<About/>}/>
+      </Routes>
   </BrowserRouter>
 );
