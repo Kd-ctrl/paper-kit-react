@@ -1,13 +1,13 @@
 /* NewProject.css */
 
 .NewProject-Container {
-    height: 20vh;
-    width: 70vw;
+    height: 25vh;
+    width: 75vw;
     margin-left: 20vw;
     display: flex;
     align-items: center;
+    /* padding: 1vh 2vw; */
     margin-top: 8vh;
-    background-color: #f9f9f9; /* Light background */
     font-family: Arial, sans-serif;
     padding: 20px 20px;
     border-radius: 8px;
@@ -20,7 +20,7 @@
     justify-content: center;
     display: flex;
     padding: 0px 20px;
-    background-color: #ffffff;
+    background-color: #ffffff00;
 
 }
 
@@ -39,7 +39,7 @@
 }
 
 .GettingStarted-text {
-    font-size: 1rem;
+    font-size: 1.5rem;
     color: #555;
     margin-right: 20px;
     line-height: 1.4;
@@ -50,7 +50,7 @@
     font-size: 1rem;
     text-align: center;
     font-weight: bold;
-    width: 45vw;
+    width: 70vw;
 }
 .GettingStarted-Button{
     margin-left: 5vw;

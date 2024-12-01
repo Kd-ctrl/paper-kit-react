@@ -4,6 +4,7 @@ import TopNavBar from "../../Components/js/TopNavbar";
 import Content from "../../Components/js/SideNavbar_content";
 import Dashboard from "pages/Components/js/NumberCard";
 import NewProject from "pages/Components/js/NewProject";
+import TextCard from "pages/Components/js/TextCard";
 
 const Home = () => {
     return (
@@ -19,7 +20,10 @@ const Home = () => {
 
         <div className="HomeGettingStarted">
           <NewProject/>
-      </div>  
+      </div>
+      <div className="HomeTextCard">
+        <TextCard/>
+      </div>
       <div className="home-dashboard">
         <Dashboard/>
         </div>

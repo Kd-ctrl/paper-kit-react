@@ -1,14 +1,6 @@
-/* .dashboard-container {
-    font-weight: bold;
-    display: flex;
 
-    justify-content: space-around;
-    align-items:center;
-    padding: 30px;
-  } */
   .dashboard-container {
-    /* height: 25vh; */
-    width: 70vw;
+    width: 75vw;
     margin-left: 20vw;
     font-weight: bold;
     display: flex;
@@ -18,19 +10,13 @@
     padding: 10px;
     position:fixed; 
     bottom: 0;  
-    background-color: #f9f9f9; 
-    box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff28; 
+    /* box-shadow: 0 5px 6px rgba(0, 0, 0, 0.1); */
 }
-/* 
-  .dashboard-place {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  } */
+
   .dashboard-card {
-    width: 200px;
-    height: 100px;
+    width: 17vw;
+    height: 16vh;
     border: 2px, solid rgba(141, 141, 141, 0.521);
     border-radius: 8px;
     margin: 10px 10px;
@@ -58,7 +44,7 @@
   }
   
   .card-body h2 {
-    font-size: 20px;
+    font-size: 5vh;
     margin: 0 5px 0 0;
     color: #333;
   }

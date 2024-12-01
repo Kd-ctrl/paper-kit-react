@@ -10,6 +10,7 @@ const TopNavBar = () => {
         <div className="logo">
           <Link to="/"> <img src={require("assets/img/Droidal-Colour.png")} /></Link> 
         </div>
+        <div className="TopNavLinks">
         <ul className="nav-links">
           <li>
             <Link to="/about">About</Link>
@@ -21,6 +22,7 @@ const TopNavBar = () => {
             <Link to="/login">Login</Link>
           </li>
         </ul>
+        </div>
       </div>
     </nav>
   );

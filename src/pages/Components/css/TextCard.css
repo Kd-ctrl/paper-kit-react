@@ -1,0 +1,71 @@
+/* Apple-Inspired TextCard Styles */
+.TextCard-Container {
+    margin-top: 1vh;
+    width: 100vw;
+    margin-left: 7.5vw;
+    height: 43vh;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+    background-color: #ffffff00; 
+}
+
+ .TextCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #ffffff;
+    border-radius: 12px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 23vw;
+    height: 40vh;
+    margin-right: 1vh;
+    padding: 2vh 1vw;
+    text-align: center;
+    transition: transform 0.2s ease, box-shadow 0.2s ease; 
+}
+
+.TextCard:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.TextCard-Header h4 {
+    font-size: 1rem; 
+    font-weight: 600; 
+    color: #1d1d1f; 
+    margin-bottom: 10px;
+    margin:1vh 0;
+    padding:1vh 1vw;
+    border-radius: 1vw;
+}
+.TextCard-Header{
+    border-radius: 0.5vw;
+}
+
+.TextCard-Body {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: flex-start;
+}
+
+.TextCard-Body h2 {
+    margin-top: 2vh;
+    font-size: 0.90rem; 
+    color: #000000; 
+    line-height: 1.5;
+}
+
+
+/* .TextCard::before {
+    content: '';
+    display: block;
+    height: 4px;
+    width: 60px;
+    border-radius: 2px;
+    background-color: currentColor; 
+    margin-bottom: 15px;
+}  */

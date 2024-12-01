@@ -14,21 +14,21 @@ const Dashboard = () => {
         title: "Tasks",
         value: 3,
         icon: "🔶",
-        bgColor: "#fff4cf",
+        bgColor: "#fbe083",
         bdColor:"#d4a017"
       },
       {
         title: "Dependencies",
         value: 50,
         icon: "📡",
-        bgColor: "#ffe4e4",
+        bgColor: "#f98e8e",
         bdColor:"#c94c4c"
       },
       {
         title: "Total Users",
         value: 20,
         icon: "👤",
-        bgColor: "#e6f9f1",
+        bgColor: "#8af3c7",
         bdColor:"#309960"
         
       }]
