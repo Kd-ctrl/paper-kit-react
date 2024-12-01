@@ -12,7 +12,7 @@ const Content = () => {
 
     return (
         <div>
-        <div className={`content-container ${isOpen ? "open" : "Closed"}`} onClick={toggleSidebar} >☰ </div>
+        <div className={`content-container ${isOpen ? "open" : "Closed"}`} onClick={toggleSidebar} ><div className="burger-icon" >☰ </div></div>
       <div className={`sidebar ${isOpen ? "open" : "closed"}`}>
             <div onClick={toggleSidebar} className="menu"> 
               <span className="menu-icon">Menu </span>

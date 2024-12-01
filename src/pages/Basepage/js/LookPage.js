@@ -18,7 +18,7 @@ const LookPage = () => {
     setShowWorkspace(true);
     setTimeout(() => {
         set_workspace(true);
-      }, 200);
+      }, 400);
   };
 
 
@@ -58,7 +58,7 @@ const LookPage = () => {
           <motion.div
             className="portal"
             animate={{ scale: [1, 1.5, 3], opacity: [0.75, 1, 1] }}
-            transition={{ duration: 5 }}
+            transition={{ duration: 2 }}
           />
         </div>
       ) : (
@@ -66,7 +66,7 @@ const LookPage = () => {
           className="workspace"
           initial={{ opacity: 0, scale: 1 }}
           animate={{ opacity: 1, scale: 20 }}
-          transition={{ duration: 1 }}
+          transition={{ duration: 2 }}
         >
           <img src={image}/>
         </motion.div>

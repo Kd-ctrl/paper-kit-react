@@ -51,8 +51,9 @@
 }
 
 .burger-icon {
-  font-size: 24px; /* Larger for emphasis */
-  color: #007aff; /* Apple blue for highlights */
+  margin-left: 15px;
+  font-size: 24px;
+  color: #007aff;
 }
 
 /* Sidebar items with Apple-style hover effects */
